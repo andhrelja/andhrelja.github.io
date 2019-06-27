@@ -14,19 +14,28 @@
 
 <body>
     <div class="container-fluid bg-primary">
-
-        <div class="row">
-            <div class="col-lg-12 text-right">
-                <ul class="list">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary" style="z-index: 1;">
+            <a class="navbar-brand" href="https://andhrelja.github.io">@andhrelja</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#contact">Contact</a>
+                    </li>
                 </ul>
             </div>
-        </div>
+        </nav>
         <div class="row">
-            <div id="profile-wrapper" class="col-lg-12">
-                <img src="images/profile.jpg" class="img-thumbnail rounded-circle" style="height: 300px;">
+            <div id="profile-wrapper" class="m-auto" style="z-index:2; margin-top: 3%!important;">
+                <img src="images/profile.jpg" class="img-thumbnail rounded-circle m-auto" style="height: 300px;">
             </div>
             <div class="col-lg-12 text-center p-3">
                 <h1 class="h1 font-900" style="color: #000;">Andrea Hrelja</h1>
@@ -58,7 +67,7 @@
                 </p>
             </div>
             <div class="col-lg-12 p-4">
-                <ul class="list-group m-auto w-50">
+                <ul class="list-group m-auto">
                     <li class="list-group-item">
                         <div class="fawesome">
                             <i class="fas fa-calendar-alt fa-lg"></i>
@@ -102,7 +111,6 @@
                     </li>
                 </ul>
             </div>
-
             <div class="col-lg-12 p-3">
                 <hr>
             </div>
@@ -128,7 +136,7 @@
             <div class="row mt-5">
                 <div class="col-md-6 p-3">
                     <a href="https://projectsapp.herokuapp.com" target="_blank">
-                        <img src="images/projectsapp.png" class="img-thumbnail">
+                        <img src="images/projectsapp.png" class="img-thumbnail m-3">
                     </a>
                 </div>
                 <div class="col-md-6 text-center m-auto p-3">
@@ -144,7 +152,7 @@
             <div class="row mt-5 mb-5">
                 <div class="col-md-6 p-3">
                     <a href="https://udruga-kastel.herokuapp.com" target="_blank">
-                        <img src="images/udruga-kastel.png" class="img-thumbnail">
+                        <img src="images/udruga-kastel.png" class="img-thumbnail m-3">
                     </a>
                 </div>
                 <div class="col-md-6 text-center m-auto p-3">
@@ -177,20 +185,20 @@
                 </p>
             </div>
             <div class="col-lg-12 text-center p-3">
-                <ul class="list-group m-auto w-50">
+                <ul class="list-group m-auto">
                     <li class="list-group-item">
                         <div class="fawesome">
                             <i class="fas fa-envelope fa-lg"></i>
                         </div>
                         &nbsp;
-                        <a href="mailto:andhrelja@gmail.com" class="font-700">andhrelja@gmail.com</a>
+                        <a href="mailto:andhrelja@gmail.com">andhrelja@gmail.com</a>
                     </li>
                     <li class="list-group-item">
                         <div class="fawesome">
                             <i class="fab fa-facebook fa-lg"></i>
                         </div>
                         &nbsp;
-                        <a href="https://facebook.com/andrea.hrelja" class="font-700"
+                        <a href="https://facebook.com/andrea.hrelja"
                             target="_blank">facebook.com/andrea.hrelja</a>
                     </li>
                     <li class="list-group-item">
@@ -198,7 +206,7 @@
                             <i class="fab fa-twitter fa-lg"></i>
                         </div>
                         &nbsp;
-                        <a href="https://twitter.com/andhrelja" class="font-700"
+                        <a href="https://twitter.com/andhrelja"
                             target="_blank">twitter.com/andhrelja</a>
                     </li>
                     <li class="list-group-item">
@@ -206,7 +214,7 @@
                             <i class="fab fa-linkedin fa-lg"></i>
                         </div>
                         &nbsp;
-                        <a href="https://www.linkedin.com/in/andrea-hrelja-0866a0132/" class="font-700"
+                        <a href="https://www.linkedin.com/in/andrea-hrelja-0866a0132/"
                             target="_blank">linkedin.com/andrea-hrelja</a>
                     </li>
                 </ul>
@@ -215,23 +223,22 @@
     </div>
     </div>
     <footer class="page-footer">
-        <div class="container-fluid bg-primary" style="height: 100px;">
-            <div class="row">
-                <div class="col-lg-12 text-right">
-                    <ul class="list">
-                        <li>
-                            <i class="fab fa-github fa-lg"></i>
-                            <a href="https://github.com/andhrelja" class="font-700">github.com/andhrelja</a>
-                        </li>
-                        <li>
-                            <i class="fab fa-bitbucket fa-lg"></i>
-                            &nbsp;
-                            <a href="https://bitbucket.org/andhrelja" class="font-700">bitbucket.org/andhrelja</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+        <nav class="navbar navbar-expand-lg bg-primary">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="https://github.com/andhrelja">
+                        <i class="fab fa-github fa-lg"></i>
+                        <span>github.com/andhrelja</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#contact">
+                        <i class="fab fa-bitbucket fa-lg"></i>
+                        <span>bitbucket.org/andhrelja</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </footer>
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

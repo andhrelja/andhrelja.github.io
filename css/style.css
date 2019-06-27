@@ -2,6 +2,13 @@
     transition: all 0.33s ease;
 }
 
+@media (max-width:420px)
+{
+    .list-group{
+        width: 100%!important;
+    }
+}
+
 h1,
 h2{
     font-family: 'Roboto', sans-serif;
@@ -41,29 +48,8 @@ hr{
     display: flex !important;
 }
 
-.list{
-    margin: 1%;
-}
-.list li{
-    display: inline-block;
-    padding: 0 1%;
-}
-
-.list li a{
-    font-family: 'Roboto';
-    font-size: 16pt;
-    color: #fff;
-    font-weight: 900;
-}
-
-.list li a:hover{
-    text-decoration: none;  
-}
-.list li:hover{
-    transform: scale(1.1);
-}
-.list li:active{
-    transform: scale(1.1);
+.list-group{
+    width: 70%;
 }
 
 .three-dots{
